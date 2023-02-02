@@ -1,0 +1,51 @@
+#player {
+    width:100px;
+    height: 170px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    
+}
+
+#coin {
+    position: absolute;
+    left: 20px;
+}
+
+body {
+    background-image: url(./Screenshot\ 2023-01-31\ 195054.png);
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#counter {
+    font-weight: 900;
+    color: white;
+    background-color: grey;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    box-shadow: 1px 1px 10px 5px inset #ffcdc0;
+    
+    
+}
+#counterUpdate {
+    background-color: white;
+    width: 130px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
